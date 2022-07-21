@@ -5,7 +5,6 @@
 }
 
 body{
-    height: 100%;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(30, 38%, 92%);
@@ -14,7 +13,7 @@ body{
 .main-content{
     margin: auto;
     display: flex;
-    margin-top: 35px;
+    margin-top: 40px;
     width: 550px;
     height: 65vh;
     border-radius: 10px;
@@ -22,7 +21,7 @@ body{
 }
 
 .img{
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -31,28 +30,41 @@ body{
     padding: 20px;
 }
 
+h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
 .title{
     font-size: 14px;
+    margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
 }
 
 .main-title{
+    color: hsl(212, 21%, 14%);
+    margin-top: 20px;
     line-height: 1;
     font-family: 'Fraunces', serif;
-    color: hsl(212, 21%, 14%);
 }
 
 b{
     display: inline;
 }
 
+p{
+    margin-top: 20px;
+}
+
 .font-price{
-    font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
     display: inline-block;
     vertical-align: middle;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .font-discount{
@@ -62,20 +74,21 @@ b{
     color: hsl(228, 12%, 48%);
 }
 
-.button{
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     width: 100%;
     border: none;
+    margin-top: 20px;
     text-align: center;
-    border-radius: 10px;
     padding: 15px 32px;
-    font-size: 16px;
+    border-radius: 10px;
     transition-duration: 0.4s;
     color: hsl(0, 0%, 100%);
-    font-family: 'Montserrat', sans-serif;
     background-color: hsl(158, 36%, 37%);
 }
 
-.button:hover {
+.btn:hover {
     background-color: rgb(26,64,49);
 }
 
